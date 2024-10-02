@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Képkeret készítő</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="adatok" class="row">
+      <div class="col-md-6 mb-3">
+        <label for="basic-url" class="form-label">A választott képed URL-je</label>
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon3">pl.: https://example.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="size-input" class="form-label">A kép mérete:</label>
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon4">pl.: 200 px</span>
+          <input type="text" class="form-control" id="size-input">
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="color-picker" class="form-label">A kép keretének színe:</label>
+        <div class="input-group">
+          <span class="input-group-text" id="color-picker-addon">Válassz színt:</span>
+          <input type="color" class="form-control" id="color-picker">
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="border-width-input" class="form-label">A kép keretének vastagsága:</label>
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon5">pl.: 10</span>
+          <input type="text" class="form-control" id="border-width-input">
+        </div>
+      </div>
+    </div>
+    <div id="image-container" class="text-center mt-4"></div>
+  </div>
+  <footer class="text-center mt-4">
+    <p>Müller Zsanett, 14/S </p>
+    <button id="toggle-dark-mode" class="btn btn-secondary">Sötét/Világos mód</button>
+  </footer>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

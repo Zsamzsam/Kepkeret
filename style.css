@@ -1,0 +1,57 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .form-label {
+    color: #ffffff; 
+}
+
+body.dark-mode .input-group-text,
+body.dark-mode .basic-addon3,
+body.dark-mode .input-group-text.basic-addon3 {
+    color: #000000; 
+}
+
+body.dark-mode .form-control {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #444444;
+}
+
+
+body.dark-mode .form-control::placeholder {
+    color: #ffffff;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #444444;
+    border-color: #555555;
+}
+
+body.dark-mode .btn-secondary {
+    background-color: #555555;
+    border-color: #666666;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #cccfd1; 
+    padding: 10px 0;
+    color: #000000;
+}
+
+body.dark-mode footer {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.container {
+    padding-bottom: 100px; 
+}
+
+#image-container {
+    margin-bottom: 100px;
+}
